@@ -43,3 +43,5 @@ All datasets are available in public.
 cd SDNet_MobileNetv2
 python main.py test --save_map True
 </code></pre>
+
+The weights and prediction results will be opened up soon.
