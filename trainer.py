@@ -10,7 +10,7 @@ from dataloader import get_train_augmentation, get_test_augmentation, get_loader
 from util.utils import AvgMeter
 from util.metrics import Evaluation_metrics
 from util.losses import Optimizer, Scheduler, Criterion
-from model.net import SDNet
+from model.net import EMSNet
 
 class Tester():
     def __init__(self, args):
@@ -20,7 +20,7 @@ class Tester():
         self.args = args
 
         # Network
-        self.model = SDNet(args).to(self.device)
+        self.model = EMSNet(args).to(self.device)
         if args.multi_gpu:
             self.model = nn.DataParallel(self.model).to(self.device)
 
