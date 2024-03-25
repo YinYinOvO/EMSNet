@@ -43,4 +43,4 @@ cd EMSNet
 python main.py test --save_map True
 </code></pre>
 
-The result graph and corresponding weight file can be obtained in [Here]([http://cbs.ic.gatech.edu/salobj/](https://pan.baidu.com/s/1ZgQWjS4mZIzoHHzMZyKRog?pwd=kog9 )) (kog9)
+The result graph and corresponding weight file can be obtained in [Here](https://pan.baidu.com/s/1ZgQWjS4mZIzoHHzMZyKRog?pwd=kog9 )(kog9)
