@@ -40,7 +40,7 @@ All datasets are available in public.
 
 ## Test Code
 <pre><code>
-cd SDNet_MobileNetv2
+cd EMSNet
 python main.py test --save_map True
 </code></pre>
 
