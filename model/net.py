@@ -219,9 +219,9 @@ class Decoder1(nn.Module):
     def initialize(self):
         weight_init(self)
 
-class FocusNet(nn.Module):
+class EMSNet(nn.Module):
     def __init__(self, cfg):
-        super(FocusNet, self).__init__()
+        super(EMSNet, self).__init__()
         self.cfg = cfg
         self.resnet = ResNet()
         self.CompressModule = CompressModule()
